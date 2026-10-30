@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173e32">
+  <meta name="description" content="Explore Nepal Together with Bimire Tour. Discover Nepal's culture, nature, wildlife, heritage, trekking, hiking, village life and meaningful local experiences.">
+  <title>Bimire Tour | Explore Nepal Together</title>
+  <style>
+    :root{--forest:#173e32;--forest2:#245542;--gold:#e7c783;--cream:#f8f5ec;--ink:#1d2a24;--muted:#68756c;--white:#fff;--line:#e6e1d4}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--cream);line-height:1.65}a{color:inherit}img{max-width:100%;display:block}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    .nav{position:sticky;top:0;z-index:20;background:rgba(23,62,50,.97);color:#fff;backdrop-filter:blur(12px)}.navin{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brandmark{width:45px;height:45px;border:1px solid #e7c783;border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:23px}.brand strong{display:block;letter-spacing:2px;font-size:17px;line-height:1.25}.brand small{color:#e7c783;letter-spacing:.7px}.links{display:flex;gap:23px;align-items:center}.links a{text-decoration:none;font-size:14px;color:#f6f5ef}.links a:hover{color:var(--gold)}.menu{display:none;background:none;border:1px solid #6e8a7e;color:#fff;padding:8px 11px;border-radius:8px;font-size:20px}
+    .hero{min-height:620px;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(10,35,28,.86),rgba(10,35,28,.49) 53%,rgba(10,35,28,.12)),url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2000&q=85') center 48%/cover no-repeat}.hero-content{padding:100px 0;max-width:720px}.eyebrow{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:750}.hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,7vw,78px);line-height:1.04;letter-spacing:-1.5px;margin:18px 0}.hero h1 em{font-weight:400;color:var(--gold)}.hero p{font-size:18px;max-width:590px;color:#f0f2ed}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:5px;padding:13px 20px;text-decoration:none;font-weight:750;font-size:14px;border:1px solid transparent;transition:.2s}.btn.gold{background:var(--gold);color:#173e32}.btn.gold:hover{background:#f2d99e;transform:translateY(-1px)}.btn.outline{border-color:#ffffffa6;color:#fff}.btn.outline:hover{background:#ffffff18}
+    .trustbar{background:var(--forest2);color:#fff}.trustin{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:22px 0;text-align:center}.trustin div{font-size:13px;letter-spacing:.3px}.trustin b{display:block;color:var(--gold);font-size:15px}
+    section{padding:86px 0}.section-head{max-width:680px;margin:0 auto 38px;text-align:center}.section-head .eyebrow{color:#8b6b30}.section-head h2,.story h2,.cta h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,4vw,46px);line-height:1.12;color:var(--forest);margin:10px 0 15px;font-weight:500}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 8px 28px #183d3210}.card img{height:180px;width:100%;object-fit:cover;transition:transform .5s}.card:hover img{transform:scale(1.04)}.cardbody{padding:20px}.card h3{color:var(--forest);font-size:18px;margin:0 0 8px}.card p{font-size:14px;color:var(--muted);margin:0}
+    .storygrid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.storyphoto{position:relative}.storyphoto img{width:100%;height:460px;object-fit:cover;border-radius:12px}.storytag{position:absolute;bottom:20px;left:20px;right:20px;background:#173e32ed;color:#fff;padding:18px 20px;border-left:3px solid var(--gold);border-radius:5px}.storytag strong{display:block;color:var(--gold);letter-spacing:1px}.story h2{margin-top:12px}.story p{color:var(--muted)}.quote{border-left:3px solid var(--gold);padding:5px 0 5px 18px;color:var(--forest);font-family:Georgia,serif;font-size:21px;margin:24px 0}
+    .experiences{background:#eeeadf}.expgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.exp{padding:24px;border:1px solid #ddd5c3;background:#f9f7f0;border-radius:9px}.exp .num{font-family:Georgia,serif;color:#b08b43;font-size:30px}.exp h3{color:var(--forest);margin:8px 0}.exp p{font-size:14px;color:var(--muted);margin:0}
+    .cta{background:var(--forest);color:#fff;text-align:center;padding:76px 0}.cta h2{color:#fff}.cta p{max-width:660px;margin:0 auto;color:#dce5df}.cta .actions{justify-content:center}.cta .eyebrow{color:var(--gold)}
+    .contactgrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:start}.contact h2{font-family:Georgia,serif;font-size:42px;color:var(--forest);font-weight:500;line-height:1.1;margin:10px 0 16px}.contact p{color:var(--muted)}.contactitem{display:flex;gap:13px;margin:22px 0;align-items:flex-start}.contacticon{width:42px;height:42px;border-radius:50%;background:#e9e2cf;color:var(--forest);display:grid;place-items:center;flex-shrink:0;font-size:18px}.contactitem b{display:block;color:var(--forest)}.contactitem a{text-decoration:none;color:#596b5f}.contactbox{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px;box-shadow:0 10px 30px #173e320c}.contactbox h3{color:var(--forest);margin-top:0}.contactbox p{font-size:14px;color:var(--muted)}.footer{background:#102e25;color:#d7e0da;padding:28px 0}.footerin{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer strong{letter-spacing:1.5px;color:#fff}.footer small{color:#b8c8be}.footer a{color:var(--gold);text-decoration:none}
+    @media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.trustin{grid-template-columns:repeat(2,1fr)}.storygrid{gap:30px}.card img{height:200px}}
+    @media(max-width:650px){.wrap{width:min(100% - 30px,1120px)}.navin{min-height:68px}.menu{display:block}.links{display:none;position:absolute;top:68px;left:0;right:0;padding:18px 22px 22px;background:var(--forest);flex-direction:column;align-items:flex-start;gap:17px;border-top:1px solid #ffffff24}.links.open{display:flex}.hero{min-height:570px;background-position:57% center}.hero-content{padding:78px 0}.hero p{font-size:16px}.trustin{gap:20px 10px}.trustin div{font-size:12px}section{padding:64px 0}.cards{gap:12px}.card img{height:145px}.cardbody{padding:14px}.card h3{font-size:16px}.card p{font-size:13px}.storygrid,.contactgrid{grid-template-columns:1fr;gap:28px}.storyphoto img{height:340px}.expgrid{grid-template-columns:1fr}.contact h2{font-size:36px}.contactbox{padding:22px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="#home" aria-label="Bimire Tour home"><span class="brandmark">⌁</span><span><strong>BIMIRE TOUR</strong><small>Explore Nepal Together!</small></span></a>
+    <button class="menu" aria-label="Open navigation" aria-expanded="false" id="menuBtn">☰</button>
+    <nav class="links" id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#experiences">Experiences</a><a href="#story">Our Story</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-content">
+      <div class="eyebrow">Authentic journeys · Heartfelt connections</div>
+      <h1>Discover Nepal.<br><em>Feel the connection.</em></h1>
+      <p>From Himalayan trails and ancient heritage to village life, living culture and wild nature — discover the real Nepal with a local friend.</p>
+      <div class="actions"><a class="btn gold" href="#experiences">Explore our experiences <span aria-hidden="true">→</span></a><a class="btn outline" href="https://wa.me/9779742828757?text=Namaste%20Bimire%20Tour!%20I%27d%20love%20to%20explore%20Nepal%20together." target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+    </div>
+  </section>
+  <div class="trustbar"><div class="wrap trustin"><div><b>Culture & Heritage</b>Stories that connect us</div><div><b>Nature & Wildlife</b>Beauty worth protecting</div><div><b>Trekking & Hiking</b>Journeys at your pace</div><div><b>Local Experiences</b>Meet Nepal beyond the guidebook</div></div></div>
+  <section id="experiences">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Find your kind of Nepal</div><h2>Small moments. Lasting memories.</h2><p>Every traveler is different. We help shape thoughtful experiences around your interests, pace and curiosity.</p></div>
+      <div class="cards">
+        <article class="card"><img loading="lazy" src="13.jpeg" alt="Historic temple architecture in Nepal"><div class="cardbody"><h3>Culture & Heritage</h3><p>Explore historic temples, living traditions, art, architecture and the stories behind them.</p></div></article>
+        <article class="card"><img loading="lazy" src="12.jpeg" alt="Mountain scenery in Nepal"><div class="cardbody"><h3>Trekking & Hiking</h3><p>Walk mountain trails, discover peaceful viewpoints and enjoy the journey step by step.</p></div></article>
+        <article class="card"><img loading="lazy" src="w.jpeg" alt="Wildlife in a natural green habitat"><div class="cardbody"><h3>Nature & Wildlife</h3><p>Experience Nepal's varied landscapes and wildlife with care, respect and wonder.</p></div></article>
+        <article class="card"><img loading="lazy" src="v.jpeg" alt="Children learning together"><div class="cardbody"><h3>Volunteering & Internships</h3><p>Explore opportunities for cultural exchange and community-minded experiences.</p></div></article>
+      </div>
+    </div>
+  </section>
+  <section class="story" id="story">
+    <div class="wrap storygrid">
+      <div class="storyphoto"><img loading="lazy" src="a.jpeg" alt="Traditional village architecture surrounded by hills"><div class="storytag"><strong>THE STORY BEHIND OUR NAME</strong><span>Bimire — a village, a memory, a sense of belonging.</span></div></div>
+      <div><div class="eyebrow">Our roots. Your journey.</div><h2>A name with a story. A journey with a purpose.</h2><p>Bimire is the mountain village in Ramechhap where our founder's late father was born. That family connection inspired the name of Bimire Tour and the spirit behind our work.</p><p>We believe travel becomes meaningful when we go beyond places and connect with people — sharing everyday life, listening to local stories and discovering the beauty of Nepal together.</p><div class="quote">“Come as a guest, leave as a friend.”</div><p>Whether you dream of heritage walks, countryside journeys, trekking, wildlife or cultural exchange, we welcome you to explore Nepal with an open heart.</p><a class="btn gold" style="background:#173e32;color:#fff" href="#contact">Let's plan your journey →</a></div>
+    </div>
+  </section>
+  <section class="experiences">
+    <div class="wrap"><div class="section-head"><div class="eyebrow">Travel with meaning</div><h2>More than sightseeing</h2><p>Our approach is personal, flexible and rooted in the warmth of Nepalese hospitality.</p></div>
+      <div class="expgrid">
+        <article class="exp"><div class="num">01</div><h3>Made for you</h3><p>Personalized travel ideas shaped around your interests, schedule and preferred pace.</p></article>
+        <article class="exp"><div class="num">02</div><h3>Closer to local life</h3><p>Discover places and experiences through local knowledge, culture and human connection.</p></article>
+        <article class="exp"><div class="num">03</div><h3>Memories that matter</h3><p>Travel with curiosity and respect, and take home stories as well as photographs.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="cta"><div class="wrap"><div class="eyebrow">Your Nepal story starts here</div><h2>Shall we explore Nepal together?</h2><p>Tell us what inspires you — mountains, heritage, wildlife, village life or a meaningful cultural experience. Let's start a conversation.</p><div class="actions"><a class="btn gold" href="https://wa.me/9779742828757?text=Namaste%20Bimire%20Tour!%20Please%20help%20me%20plan%20a%20trip%20in%20Nepal." target="_blank" rel="noopener">Message us on WhatsApp ↗</a><a class="btn outline" href="mailto:bimiretour@gmail.com?subject=Explore%20Nepal%20Together">Send us an email</a></div></div></section>
+  <section class="contact" id="contact"><div class="wrap contactgrid"><div><div class="eyebrow">Say Namaste</div><h2>Let's make a meaningful journey.</h2><p>Have a question, an idea, or a travel dream? We'd love to hear from you and help you explore the possibilities.</p>
+      <div class="contactitem"><span class="contacticon">✉</span><div><b>Email</b><a href="mailto:bimiretour@gmail.com">bimiretour@gmail.com</a></div></div>
+      <div class="contactitem"><span class="contacticon">☏</span><div><b>WhatsApp / Phone</b><a href="https://wa.me/9779742828757" target="_blank" rel="noopener">+977 9742828757</a></div></div>
+      <div class="contactitem"><span class="contacticon">⌖</span><div><b>Nepal</b><span>GPO Post Box No. 2387, Kaushaltar, Bhaktapur, Nepal</span></div></div>
+    </div><div class="contactbox"><h3>Tell us what you have in mind</h3><p>Choose the easiest way to get in touch. We can discuss your interests, dates, group size and the kind of Nepal experience you hope to have.</p><a class="btn gold" style="background:#173e32;color:#fff;width:100%" href="https://wa.me/9779742828757?text=Namaste%20Bimire%20Tour!%0AI'm%20interested%20in%20exploring%20Nepal.%0A%0AMy%20travel%20interests%3A%20" target="_blank" rel="noopener">Start a WhatsApp conversation ↗</a><p style="margin-bottom:0">Prefer email? Write to <a href="mailto:bimiretour@gmail.com">bimiretour@gmail.com</a>.</p></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footerin"><div><strong>BIMIRE TOUR</strong><br><small>Explore Nepal Together! 🇳🇵</small></div><small>Rooted in Nepal. Connected through travel. © <span id="year"></span> Bimire Tour.</small><a href="#home">Back to top ↑</a></div></footer>
+<script>
+  const menuBtn=document.getElementById('menuBtn'), navLinks=document.getElementById('navLinks');
+  menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'✕':'☰';});
+  navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰';}));
+  document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
